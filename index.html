@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Air Digital Vision — Startup française de transformation digitale</title>
+<meta name="description" content="Air Digital Vision, startup française : audit et automatisation de votre système d'information, veille IA et formation de vos équipes. Vos données restent sous votre contrôle.">
+<meta property="og:title" content="Air Digital Vision — Automatisez. Anticipez. Avancez.">
+<meta property="og:description" content="Transformation digitale, veille IA et formation, par une startup française engagée pour la souveraineté des données.">
+<link rel="canonical" href="https://airdigitalvision.org/">
+<meta property="og:url" content="https://airdigitalvision.org/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://airdigitalvision.org/assets/logo-nuit.png">
+<meta name="theme-color" content="#010C1F">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- Icônes (trait 2 px, angles francs) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-horloge" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-flux" viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><rect x="4" y="18" width="2" height="2"/></symbol>
+  <symbol id="i-auto" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect x="13" y="13" width="8" height="8"/></symbol>
+  <symbol id="i-veille" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-5-5"/></symbol>
+  <symbol id="i-immeuble" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18"/><path d="M9 21v-4h6v4M9 7h1M14 7h1M9 11h1M14 11h1"/></symbol>
+  <symbol id="i-outil" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
+  <symbol id="i-mallette" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13"/><path d="M16 20V5H8v15"/></symbol>
+  <symbol id="i-groupe" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+  <symbol id="i-mairie" viewBox="0 0 24 24"><path d="M3 21h18M6 17v-6M10 17v-6M14 17v-6M18 17v-6M12 3l8 5H4z"/></symbol>
+  <symbol id="i-ecole" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+  <symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14"/><path d="m10 9 5 3-5 3z"/></symbol>
+  <symbol id="i-graph" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M8 16v-5M13 16V8M18 16V6"/></symbol>
+  <symbol id="i-bouclier" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+  <symbol id="i-hausse" viewBox="0 0 24 24"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></symbol>
+  <symbol id="i-cible" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-livre" viewBox="0 0 24 24"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h5"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16"/><path d="m22 6-10 7L2 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+  <symbol id="i-fleche" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+
+<!-- NAVIGATION -->
+<header class="nav">
+  <a class="nav-logo" href="#accueil" aria-label="Air Digital Vision — accueil"><img src="assets/logo-nuit.png" alt="Air Digital Vision" width="132" height="44"></a>
+  <nav class="nav-liens" id="menu" aria-label="Navigation principale">
+    <a href="#probleme">Le constat</a>
+    <a href="#offres">Nos offres</a>
+    <a href="#souverainete">Souveraineté</a>
+    <a href="#pour-qui">Pour qui</a>
+    <a href="#demos">Démos</a>
+    <a href="#evenements">Événements</a>
+    <a href="#atouts">Nos atouts</a>
+    <a href="equipe.html">À propos</a>
+    <a href="#contact" class="seul-mobile">Parlons de votre projet →</a>
+  </nav>
+  <a class="btn btn-cta" href="#contact">Parlons-en <svg class="ico" style="width:18px;height:18px"><use href="#i-fleche"/></svg></a>
+  <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><svg class="ico"><use href="#i-menu"/></svg></button>
+</header>
+
+<main>
+
+<!-- HÉROS -->
+<section class="hero sur-nuit" id="accueil">
+  <div class="conteneur">
+    <img class="hero-logo" src="assets/logo-nuit.png" alt="Air Digital Vision — Apprendre. Maîtriser. Évoluer." width="900" height="299">
+    <p class="badge-fr"><span class="drapeau" aria-hidden="true"><i></i><i></i><i></i></span><span>Startup française<br>Souveraineté des données</span></p>
+    <h1>Automatisez. Anticipez. <span>Avancez.</span></h1>
+    <p>Nous accompagnons entreprises, institutions et associations dans leur transformation numérique : audit et automatisation de vos systèmes, veille IA, formation de vos équipes. Avec un principe : vos données restent sous votre contrôle.</p>
+    <div class="hero-btns">
+      <a class="btn btn-primaire" href="#offres">Découvrir nos 3 offres</a>
+      <a class="btn btn-secondaire" href="#souverainete">Notre engagement</a>
+    </div>
+  </div>
+  <img class="hero-vague" src="assets/vague.png" alt="" aria-hidden="true">
+</section>
+
+<!-- LE CONSTAT -->
+<section id="probleme" class="fond-blanc">
+  <div class="conteneur">
+    <div class="entete-centre">
+    <p class="label">Le constat</p>
+    <span class="filet"></span>
+    <h2>Trois problèmes qui coûtent cher à votre organisation</h2>
+    <p class="chapo" style="margin-top:12px">PME, ETI, institutions, collectivités ou associations : vos équipes perdent du temps sur des tâches répétitives, manquent des informations clés et ne sont pas formées aux nouveaux risques numériques.</p>
+    </div>
+    <div class="grille-3">
+      <article class="carte">
+        <div class="ico-bloc"><svg class="ico"><use href="#i-horloge"/></svg></div>
+        <h3>Des processus manuels et des outils mal reliés</h3>
+        <ul class="puces">
+          <li>Devis, relances et suivis faits à la main</li>
+          <li>Les mêmes données ressaisies dans plusieurs logiciels</li>
+          <li>Personne ne sait vraiment où sont stockées les données</li>
+        </ul>
+        <p class="consequence"><span class="label">Exemple</span>Une relance oubliée : une facture encaissée deux mois en retard et une trésorerie sous tension.</p>
+      </article>
+      <article class="carte violet">
+        <div class="ico-bloc violet"><svg class="ico"><use href="#i-flux"/></svg></div>
+        <h3 style="color:var(--elan)">Une information qui change trop vite</h3>
+        <ul class="puces">
+          <li>Réglementation, fiscalité et aides publiques en évolution constante</li>
+          <li>Une veille impossible à tenir à côté du quotidien</li>
+          <li>Des décisions prises sans données à jour</li>
+        </ul>
+        <p class="consequence"><span class="label violet">Exemple</span>Une nouvelle obligation, comme la facturation électronique, découverte au dernier moment : adaptation dans l'urgence.</p>
+      </article>
+      <article class="carte">
+        <div class="ico-bloc"><svg class="ico"><use href="#i-bouclier"/></svg></div>
+        <h3>Des équipes pas formées aux risques numériques</h3>
+        <ul class="puces">
+          <li>IA utilisée sans règles ni précautions</li>
+          <li>Mails piégés et mots de passe faibles</li>
+          <li>Erreurs de manipulation coûteuses</li>
+        </ul>
+        <p class="consequence"><span class="label">Exemple</span>Un salarié colle un fichier clients dans une IA grand public : données exposées et manquement au RGPD.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- OFFRES -->
+<section id="offres">
+  <div class="conteneur">
+    <div class="entete-centre">
+    <p class="label">Nos offres</p>
+    <span class="filet"></span>
+    <h2>Trois offres pour <span class="accent">transformer votre organisation</span></h2>
+    <p class="chapo" style="margin-top:12px">Auditer, automatiser, informer, former : nous couvrons toute la chaîne. Chaque mission est construite sur mesure. Vous n'écrivez aucune ligne de code.</p>
+    </div>
+    <div class="grille-3">
+      <article class="carte offre">
+        <span class="offre-num" aria-hidden="true">01</span>
+        <p class="label">Offre 01 — Transformation</p>
+        <h3>Transformation digitale</h3>
+        <p class="question">Vos outils sont-ils sûrs, bien reliés et vraiment utiles ?</p>
+        <ol class="etapes">
+          <li><span><strong>Nous auditons votre système d'information :</strong> outils, données, sécurité, dépendances.</span></li>
+          <li><span><strong>Nous vous remettons un plan d'action</strong> classé par priorités et par gains.</span></li>
+          <li><span><strong>Nous automatisons et déployons</strong> les solutions, puis nous formons vos équipes.</span></li>
+        </ol>
+        <div class="inclus">
+          <p class="label">Inclus</p>
+          <ul class="puces">
+            <li>Audit SI et cartographie de vos données</li>
+            <li>Automatisation des tâches répétitives : devis, relances, reporting</li>
+            <li>Bases de données et tableaux de bord sur mesure (Airtable, ou alternatives européennes comme Grist)</li>
+            <li>Accompagnement au changement</li>
+          </ul>
+        </div>
+      </article>
+      <article class="carte offre violet">
+        <span class="offre-num" aria-hidden="true">02</span>
+        <p class="label violet">Offre 02 — Veille</p>
+        <h3 style="color:var(--elan)">Veille IA sur mesure</h3>
+        <p class="question">Quelles informations importantes pour votre activité vous échappent aujourd'hui ?</p>
+        <ol class="etapes">
+          <li><span><strong>Nous définissons avec vous</strong> vos sujets, vos sources et vos alertes.</span></li>
+          <li><span><strong>L'IA trie et résume</strong> l'actualité qui vous concerne vraiment.</span></li>
+          <li><span><strong>Vous recevez votre synthèse</strong> chaque semaine, sans rien avoir à gérer.</span></li>
+        </ol>
+        <div class="inclus">
+          <p class="label violet">Inclus</p>
+          <ul class="puces">
+            <li>Actualité financière et réglementaire filtrée par l'IA</li>
+            <li>Synthèse de votre secteur chaque semaine</li>
+            <li>Alertes sur les sujets critiques pour votre activité</li>
+            <li>Sources et thèmes adaptés à votre métier</li>
+          </ul>
+        </div>
+      </article>
+      <article class="carte offre">
+        <span class="offre-num" aria-hidden="true">03</span>
+        <p class="label">Offre 03 — Formation</p>
+        <h3>Formation et sensibilisation</h3>
+        <p class="question">Vos équipes savent-elles utiliser l'IA sans exposer vos données ?</p>
+        <ol class="etapes">
+          <li><span><strong>Nous évaluons le niveau</strong> de vos équipes et vos risques prioritaires.</span></li>
+          <li><span><strong>Nous animons des ateliers pratiques</strong> adaptés à votre public, sans jargon.</span></li>
+          <li><span><strong>Nous laissons des supports et des règles simples</strong> pour ancrer les bons réflexes.</span></li>
+        </ol>
+        <div class="inclus">
+          <p class="label">Thèmes</p>
+          <ul class="puces">
+            <li>Intelligence artificielle : usages utiles et limites</li>
+            <li>Systèmes d'information et outils numériques</li>
+            <li>Sécurité informatique : mails piégés, mots de passe, RGPD</li>
+            <li>Éducation financière</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <div class="grille-4" style="margin-top:48px">
+      <div class="carte benef"><p class="benef-val">100 %</p><p>sur mesure, aucun outil générique imposé</p></div>
+      <div class="carte benef"><p class="benef-val">0</p><p>ligne de code à écrire de votre côté</p></div>
+      <div class="carte benef"><p class="benef-val">RGPD</p><p>pris en compte dès la conception</p></div>
+      <div class="carte benef"><p class="benef-val">Objectifs</p><p>chiffrés ensemble avant de commencer</p></div>
+    </div>
+    <p class="signature-offre">VEILLE . AUTOMATISATION . PERFORMANCE</p>
+  </div>
+</section>
+
+<!-- SOUVERAINETÉ -->
+<section id="souverainete" class="souv sur-nuit">
+  <div class="conteneur">
+    <div class="souv-intro entete-centre">
+      <p class="label">Souveraineté des données</p>
+      <span class="filet"></span>
+      <h2>Une startup française. Vos données restent les vôtres.</h2>
+      <p>Transformer votre organisation ne doit pas vous rendre dépendant d'outils dont vous ignorez où ils stockent vos données. Notre rôle : vous donner la maîtrise.</p>
+    </div>
+    <div class="souv-grille">
+      <div class="souv-pt"><svg class="ico"><use href="#i-cible"/></svg><h3>Vous savez où sont vos données</h3><p>Nous cartographions où elles sont hébergées, qui y a accès et sous quel droit.</p></div>
+      <div class="souv-pt"><svg class="ico"><use href="#i-immeuble"/></svg><h3>Européen en priorité</h3><p>Quand une solution française ou européenne fiable existe, nous la proposons en premier.</p></div>
+      <div class="souv-pt"><svg class="ico"><use href="#i-bouclier"/></svg><h3>RGPD dès la conception</h3><p>La conformité est intégrée à chaque outil et à chaque automatisation.</p></div>
+      <div class="souv-pt"><svg class="ico"><use href="#i-auto"/></svg><h3>Aucun enfermement</h3><p>Formats ouverts et données exportables : vous pouvez changer d'outil quand vous le voulez.</p></div>
+      <div class="souv-pt"><svg class="ico"><use href="#i-veille"/></svg><h3>Une IA encadrée</h3><p>Pas de données sensibles dans des IA grand public : des règles claires et des réglages adaptés.</p></div>
+      <div class="souv-pt"><svg class="ico"><use href="#i-livre"/></svg><h3>La transparence</h3><p>Si un outil non européen reste le plus adapté, nous vous le disons et encadrons son usage.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- POUR QUI -->
+<section id="pour-qui" class="fond-blanc">
+  <div class="conteneur">
+    <div class="entete-centre">
+    <p class="label">Pour qui</p>
+    <span class="filet"></span>
+    <h2>Des PME aux institutions</h2>
+    <p class="chapo" style="margin-top:12px">Avec ou sans service informatique, nous adaptons chaque mission à votre taille, à vos contraintes et à vos équipes.</p>
+    </div>
+    <div class="grille-3">
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-immeuble"/></svg></div><div><h3>PME et ETI</h3><p>Relier vos outils, automatiser et sécuriser votre système d'information.</p></div></div>
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-mairie"/></svg></div><div><h3>Institutions et collectivités</h3><p>Moderniser les services en gardant la maîtrise des données publiques.</p></div></div>
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-ecole"/></svg></div><div><h3>Écoles et centres de formation</h3><p>Former aux usages de l'IA et simplifier la gestion des apprenants.</p></div></div>
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-groupe"/></svg></div><div><h3>Associations</h3><p>Adhérents, bénévoles et subventions mieux organisés.</p></div></div>
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-mallette"/></svg></div><div><h3>Cabinets et professions libérales</h3><p>Automatiser le répétitif pour se consacrer au conseil.</p></div></div>
+      <div class="carte cible"><div class="ico-bloc"><svg class="ico"><use href="#i-outil"/></svg></div><div><h3>TPE et artisans</h3><p>Devis, chantiers et factures suivis au même endroit.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DÉMOS -->
+<section id="demos">
+  <div class="conteneur">
+    <div class="entete-centre">
+    <p class="label">Démonstrations</p>
+    <span class="filet"></span>
+    <h2>Voyez ce que nous livrons</h2>
+    <p class="chapo" style="margin-top:12px">Regardez une démonstration Airtable, testez notre outil de veille et suivez nos tutoriels gratuits.</p>
+    </div>
+    <div class="grille-3">
+      <article class="carte demo">
+        <div class="ico-bloc"><svg class="ico"><use href="#i-graph"/></svg></div>
+        <h3>Démo Airtable en direct</h3>
+        <p>Un processus automatisé avec Airtable, présenté en situation réelle.</p>
+        <a class="btn btn-secondaire" href="https://www.youtube.com/live/syCs8Jm9sCY?si=hwEpIwW8wlf0t43V" target="_blank" rel="noopener">Voir la démo →</a>
+      </article>
+      <article class="carte demo">
+        <div class="ico-bloc violet"><svg class="ico"><use href="#i-veille"/></svg></div>
+        <h3 style="color:var(--elan)">Notre outil de veille IA</h3>
+        <p>Une plateforme de veille développée pour l'audit et la finance, à tester librement.</p>
+        <a class="btn btn-secondaire" style="color:var(--elan);border-color:var(--elan)" href="https://veille-info-audit.vercel.app/" target="_blank" rel="noopener">Tester la veille →</a>
+      </article>
+      <article class="carte demo">
+        <div class="ico-bloc"><svg class="ico"><use href="#i-video"/></svg></div>
+        <h3>Chaîne YouTube</h3>
+        <p>Tutoriels gratuits : IA, Airtable, finance et blockchain, expliqués simplement.</p>
+        <a class="btn btn-secondaire" href="https://www.youtube.com/@airdigitalvision" target="_blank" rel="noopener">Voir la chaîne →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ÉVÉNEMENTS (calendrier Luma, mis à jour automatiquement) -->
+<section id="evenements" class="evenements sur-nuit">
+  <div class="conteneur">
+    <div class="entete-centre">
+      <p class="label">Événements</p>
+      <span class="filet"></span>
+      <h2>Retrouvez-nous lors de nos prochains événements</h2>
+      <p class="chapo" style="margin-top:12px">Ateliers, conférences et démonstrations : inscrivez-vous directement depuis le calendrier.</p>
+    </div>
+    <div class="luma">
+      <iframe src="https://luma.com/embed/calendar/cal-xNLH4YNKYU7lGfM/events?lt=dark" title="Calendrier des événements Air Digital Vision" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ATOUTS -->
+<section id="atouts" class="fond-blanc">
+  <div class="conteneur">
+    <p class="label">Ce qui nous distingue</p>
+    <span class="filet"></span>
+    <h2>Pas une promesse : <span class="accent">un outil qui fonctionne</span></h2>
+    <div class="atouts" style="margin-top:40px">
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-bouclier"/></svg></div><div><h3>Une startup française engagée pour la souveraineté</h3><p>Nous défendons des choix technologiques qui gardent vos données sous votre contrôle, en France et en Europe.</p></div></div>
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-livre"/></svg></div><div><h3>Une expérience de la comptabilité en cabinet</h3><p>Formation DSCG et pratique en cabinet d'expertise comptable : nous connaissons vos contraintes de l'intérieur.</p></div></div>
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-graph"/></svg></div><div><h3>Audit des systèmes d'information et sécurité</h3><p>Architecture des données, sécurité et conformité : nous savons repérer les failles et les corriger.</p></div></div>
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-hausse"/></svg></div><div><h3>Plus de 10 ans en finance</h3><p>Finance de marché, analyse financière et blockchain : une vision large qui enrichit chaque solution.</p></div></div>
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-auto"/></svg></div><div><h3>Airtable, Make et Claude API maîtrisés</h3><p>Des bases opérationnelles et des automatisations qui tournent dès la livraison.</p></div></div>
+      <div class="atout"><div class="ico-bloc"><svg class="ico"><use href="#i-cible"/></svg></div><div><h3>Des résultats mesurés</h3><p>Nous fixons ensemble les indicateurs avant de commencer. Vous voyez l'effet en heures gagnées et en résultats concrets.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact sur-nuit">
+  <div class="conteneur">
+    <p class="label">Contact</p>
+    <span class="filet"></span>
+    <h2>Votre activité mérite de tourner sans friction</h2>
+    <p class="chapo" style="margin-top:12px">Parlez-nous de vos besoins.</p>
+    <a class="btn btn-cta" href="mailto:contact@airdigitalvision.org">Échangeons <svg class="ico" style="width:18px;height:18px"><use href="#i-fleche"/></svg></a>
+  </div>
+</section>
+
+<!-- PARTENAIRES -->
+<section id="partenaires" class="partenaires" aria-label="Partenaires et technologies">
+  <div class="entete-centre">
+    <p class="label">Partenaires et technologies</p>
+    <span class="filet"></span>
+  </div>
+  <div class="defile">
+    <ul class="defile-piste"><li><img src="assets/partenaire-dmc.png" alt="DMC Technologies"></li><li><img src="assets/partenaire-eko-market.png" alt="Eko Market"></li><li><img src="assets/partenaire-maison-goh.png" alt="Maison GOH" class="carre"></li><li><img src="assets/partenaire-ng-environnement.png" alt="Nouvelle Gestion Environnement" class="carre"></li><li><img src="assets/partenaire-cloud4africa.png" alt="Cloud4Africa"></li><li><img src="assets/partenaire-pagawy.png" alt="Pagawy"></li><li><img src="assets/partenaire-ovhcloud.png" alt="OVHcloud" class="bloc"></li><li><img src="assets/partenaire-airtable.png" alt="Airtable"></li><li><img src="assets/partenaire-squarespace.png" alt="Squarespace"></li><li><img src="assets/partenaire-github.png" alt="GitHub"></li><li><img src="assets/partenaire-metamask.svg" alt="MetaMask" class="carre"></li><li><img src="assets/partenaire-icp.png" alt="Internet Computer (ICP)"></li><li><img src="assets/partenaire-xrp.png" alt="XRP" class="carre"></li><li><img src="assets/partenaire-stellar.png" alt="Stellar"></li><li><img src="assets/partenaire-google-cloud.png" alt="Google Cloud"></li><li><img src="assets/partenaire-claude.png" alt="Claude"></li><li><img src="assets/partenaire-gnu-linux.png" alt="GNU/Linux" class="carre"></li><li><img src="assets/partenaire-gemini.png" alt="Gemini"></li><li><img src="assets/partenaire-openai.png" alt="OpenAI"></li><li><img src="assets/partenaire-ethereum.png" alt="Ethereum" class="carre"></li><li><img src="assets/partenaire-coingecko.svg" alt="CoinGecko"></li></ul>
+    <ul class="defile-piste" aria-hidden="true"><li><img src="assets/partenaire-dmc.png" alt="DMC Technologies"></li><li><img src="assets/partenaire-eko-market.png" alt="Eko Market"></li><li><img src="assets/partenaire-maison-goh.png" alt="Maison GOH" class="carre"></li><li><img src="assets/partenaire-ng-environnement.png" alt="Nouvelle Gestion Environnement" class="carre"></li><li><img src="assets/partenaire-cloud4africa.png" alt="Cloud4Africa"></li><li><img src="assets/partenaire-pagawy.png" alt="Pagawy"></li><li><img src="assets/partenaire-ovhcloud.png" alt="OVHcloud" class="bloc"></li><li><img src="assets/partenaire-airtable.png" alt="Airtable"></li><li><img src="assets/partenaire-squarespace.png" alt="Squarespace"></li><li><img src="assets/partenaire-github.png" alt="GitHub"></li><li><img src="assets/partenaire-metamask.svg" alt="MetaMask" class="carre"></li><li><img src="assets/partenaire-icp.png" alt="Internet Computer (ICP)"></li><li><img src="assets/partenaire-xrp.png" alt="XRP" class="carre"></li><li><img src="assets/partenaire-stellar.png" alt="Stellar"></li><li><img src="assets/partenaire-google-cloud.png" alt="Google Cloud"></li><li><img src="assets/partenaire-claude.png" alt="Claude"></li><li><img src="assets/partenaire-gnu-linux.png" alt="GNU/Linux" class="carre"></li><li><img src="assets/partenaire-gemini.png" alt="Gemini"></li><li><img src="assets/partenaire-openai.png" alt="OpenAI"></li><li><img src="assets/partenaire-ethereum.png" alt="Ethereum" class="carre"></li><li><img src="assets/partenaire-coingecko.svg" alt="CoinGecko"></li></ul>
+  </div>
+</section>
+
+</main>
+
+<!-- PIED DE PAGE -->
+<footer class="pied">
+  <div class="conteneur">
+    <a class="pied-logo" href="#accueil"><img src="assets/logo-nuit.png" alt="Air Digital Vision" width="169" height="56"></a>
+    <nav class="pied-liens" aria-label="Informations légales">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Politique de confidentialité</a>
+      <a href="cgu.html">Conditions d'utilisation</a>
+      <a href="equipe.html">À propos</a>
+      <a href="mailto:contact@airdigitalvision.org">Contact</a>
+    </nav>
+    <div class="pied-social">
+      <a href="https://www.linkedin.com/company/airdigitalvision/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.tiktok.com/@airdigitalvision" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.youtube.com/@airdigitalvision" target="_blank" rel="noopener">YouTube</a>
+    </div>
+    <div class="pied-bas">
+      <span>© <span id="annee">2026</span> Air Digital Vision — Tous droits réservés</span>
+      <span class="signature">APPRENDRE. MAÎTRISER. ÉVOLUER.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){var o=m.classList.toggle('ouvert');b.setAttribute('aria-expanded',o)});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('ouvert');b.setAttribute('aria-expanded',false)})});
+  var liens=m.querySelectorAll('a[href^="#"]');
+  window.addEventListener('scroll',function(){
+    var y=window.scrollY+100;
+    liens.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));
+      a.classList.toggle('actif',!!s&&y>=s.offsetTop&&y<s.offsetTop+s.offsetHeight)});
+  },{passive:true});
+  document.getElementById('annee').textContent=new Date().getFullYear();
+})();
+</script>
+<script>
+(function(){
+  var p=document.querySelectorAll('.defile-piste');if(!p.length)return;
+  var li=[].slice.call(p[0].children);
+  for(var i=li.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=li[i];li[i]=li[j];li[j]=t;}
+  li.forEach(function(e){p[0].appendChild(e)});
+  for(var k=1;k<p.length;k++)p[k].innerHTML=p[0].innerHTML;
+})();
+</script>
+</body>
+</html>
