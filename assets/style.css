@@ -302,3 +302,9 @@ section{padding:96px var(--marge)}
 .reseaux a:hover{border-color:var(--vision);color:var(--vision)}
 .reseaux .ico{width:16px;height:16px;color:var(--vision)}
 .legal .reseaux li{margin:0}
+
+/* v11 — en-tête fixe fiable sur mobile + partenaires remontés */
+html,body{overflow-x:clip}
+.nav{-webkit-backdrop-filter:none;backdrop-filter:none;transform:translateZ(0)}
+main,section{max-width:100%}
+.partenaires{overflow:hidden;padding:56px 0}
